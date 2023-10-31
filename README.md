@@ -47,7 +47,7 @@ I have included Requirements.txt file. To install the required modules and libra
   -  using command prompt navigate to project directory.
   -  Run the following command to install all the packages listed in the Requirements.txt file using pip:
 
-     pip install -r requirements.txt
+     pip install -r Requirements.txt
 
 ## Clone the GitHub repository
 
