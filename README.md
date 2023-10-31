@@ -3,6 +3,7 @@
 ## Overview
 
 This project aims to extract, transform, and visualize data from the Phonepe Pulse GitHub repository, providing valuable insights and information in an interactive and user-friendly dashboard.
+We create a web app to analyse the Phonepe transaction and users depending on various Years, Quarters, States, and Types of transaction and give a Geographical and Geo visualization output based on given requirements.
 
 ## Problem Statement
 
@@ -31,12 +32,13 @@ The dashboard provides various dropdown options for users to select different fa
 To get started with this project, follow these steps:
 
 1. Install required Modules and Libraries.
-2. Clone the GitHub repository.
-3. Transform and preprocess the data using the provided scripts.
-4. Insert the data into a MySQL database.
-5. Fetch the data from MySQL database to transform and visualise.
-6. Create and run the Streamlit and Plotly dashboard.
-7. Access the dashboard in your web browser to explore the insights.
+2. ETL Process.
+   - Extract: Clone the GitHub repository.
+   - Transform: Transform and preprocess the data using the provided scripts.
+   - Load: Insert the data into a MySQL database.
+3. Fetch the data from MySQL database to transform and visualise.
+4. Create and run the Streamlit and Plotly dashboard.
+5. Access the dashboard in your web browser to explore the insights.
 
 ## Install required Modules and Libraries
 
@@ -53,7 +55,7 @@ You can directly download the file to local storage or clone it using python scr
 
 ## Transform and preprocess the data
 
-Now process the data and transform into DataFrames.
+Process the data and transform into DataFrames.
 
 ## Insert the data into a MySQL database
 
@@ -70,3 +72,20 @@ Create an interactive dashboard for analysing and visualising the data.
 ## Access the dashboard in your web browser to explore the insights
 
 Access the dashboard and analyse the data.
+
+## Tools Used
+    - Python (3.11.4)
+    - VS Code - for .py and .ipynb
+    - MySQL
+    - GitHub Repository
+    - GeoJson data 
+
+## User Guide
+Step 1.
+  Select any one option fron All India or State wise or Top Ten categories.
+Step 2.
+  Select any one option fron Transaction or User.
+Step 3.
+  Select any Year, Quarter and additional required option.
+Step 4.
+  Finally, You get the Geo Visualization Analysis or Bar chart Analysis and Table format Analysis
