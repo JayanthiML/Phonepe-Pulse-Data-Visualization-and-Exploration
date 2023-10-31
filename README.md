@@ -83,7 +83,7 @@ Access the dashboard and analyse the data.
 
 ## User Guide
 
-Step 1: Select any one option fron All India or State wise or Top Ten categories.  
-Step 2: Select any one option fron Transaction or User.  
+Step 1: Select any one option from All India or State wise or Top Ten categories.  
+Step 2: Select any one option from Transaction or User.  
 Step 3: Select any Year, Quarter and additional required option.  
 Step 4: Finally, You get the Geo Visualization Analysis or Bar chart Analysis and Table format Analysis.  
